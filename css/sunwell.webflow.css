@@ -1,0 +1,1144 @@
+.welcome-main {
+  position: static;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  display: block;
+  width: auto;
+  height: 500px;
+  margin-top: 72px;
+  padding-top: 0px;
+  padding-left: 0px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-style: none none solid;
+  border-bottom-width: 3px;
+  border-bottom-color: #000;
+  background-color: #fff;
+}
+
+.container-main {
+  position: static;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  max-width: 1500px;
+  margin-right: 0px;
+  margin-left: 0px;
+  padding: 0px 80px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: transparent;
+}
+
+.navlink-main {
+  margin-right: 0px;
+  margin-left: 0px;
+  padding: 10px;
+  color: #fff;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.navlink-main:hover {
+  border: 0px none #fff;
+  border-radius: 5px;
+  background-color: #00695c;
+}
+
+.navlink-main.w--current {
+  border: 0px none #fff;
+  border-radius: 6px;
+  background-color: #4db6ac;
+  color: #fff;
+  font-size: 18px;
+}
+
+.body {
+  font-size: 12px;
+}
+
+.company-name {
+  position: static;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  display: block;
+  width: 40%;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 10px 14px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  -webkit-box-ordinal-group: 1;
+  -webkit-order: 0;
+  -ms-flex-order: 0;
+  order: 0;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  font-family: 'Changa One', Impact, sans-serif;
+  color: #fff;
+  font-size: 50px;
+  font-weight: 700;
+  text-align: left;
+  text-decoration: none;
+}
+
+.nav-menu {
+  display: inline-block;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  float: none;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+}
+
+.about-us {
+  position: relative;
+  display: block;
+  overflow: visible;
+  height: 350px;
+  margin-top: 0px;
+  padding-top: 0px;
+  float: none;
+  clear: none;
+  border-style: none none solid;
+  border-color: #000 transparent #000 #000;
+  border-top-width: 1px;
+  border-bottom-width: 3px;
+  border-left-width: 1px;
+}
+
+.about-usdiv {
+  width: 100%;
+  height: 100%;
+  margin-top: 0px;
+  padding-top: 18px;
+}
+
+.heading {
+  position: static;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 40px;
+  margin-bottom: 0px;
+  clear: none;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-family: Exo, sans-serif;
+  color: #000;
+}
+
+.paragraph {
+  position: static;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  display: block;
+  width: 80%;
+  margin: 25px auto;
+  padding-top: 0px;
+  padding-left: 0px;
+  float: none;
+  clear: none;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  font-family: Exo, sans-serif;
+  color: #000;
+  font-size: 15px;
+  font-weight: 500;
+  text-align: justify;
+}
+
+.navbar {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  display: block;
+  height: 12%;
+  background-color: #00897b;
+}
+
+.contact-us {
+  height: 600px;
+  border-bottom: 3px solid #000;
+}
+
+.contact-us-div {
+  width: 100%;
+  height: 100%;
+  padding-top: 60px;
+}
+
+.contact-us-heading {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 30px;
+  padding-top: 0px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-family: Exo, sans-serif;
+  color: #000;
+}
+
+.contact-coloumn-div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.contact-h2-heading {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: Exo, sans-serif;
+  color: #000;
+}
+
+.contact-para-text {
+  padding-top: 30px;
+  font-family: Exo, sans-serif;
+  color: #000;
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 600;
+  text-align: left;
+}
+
+.contact-us-image {
+  width: 100px;
+  height: 100px;
+}
+
+.contact-us-row {
+  margin-right: 40px;
+  margin-left: 40px;
+  padding-top: 63px;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.footer-section {
+  position: relative;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  height: 30px;
+  background-color: #00897b;
+}
+
+.copyright {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  display: inline-block;
+  margin-left: 85px;
+  padding-top: 5px;
+  padding-left: 0px;
+  font-family: Exo, sans-serif;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.copyright.celtic-labs {
+  left: auto;
+  top: 0px;
+  right: 0px;
+  margin-right: 85px;
+  padding-top: 5px;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.products-page1 {
+  display: inline-block;
+  max-height: none;
+  margin-top: 72px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 0px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  border-bottom: 3px solid #000;
+}
+
+.products-main-div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 78%;
+  margin: 0px auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  border-bottom: 3px none #000;
+}
+
+.products {
+  display: block;
+  border-bottom: 3px solid #000;
+}
+
+.products-div {
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding-top: 80px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.products-heading {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0px auto;
+  padding-top: 0px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.products-col1 {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.products-col1-div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 0px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.product-image-div {
+  width: 240px;
+  height: 200px;
+  margin-top: 0px;
+  margin-bottom: 4px;
+  padding-top: 0px;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
+  border: 3px solid #000;
+  border-radius: 10px;
+}
+
+.products-image {
+  position: static;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  display: block;
+  overflow: visible;
+  width: 90%;
+  height: 90%;
+  margin-top: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 0px;
+  border-radius: 10px;
+}
+
+.products-image:hover {
+  width: 95%;
+  height: 95%;
+  margin-top: 5px;
+}
+
+.product-heading {
+  display: block;
+  margin: 0px auto;
+  font-size: 18px;
+  text-align: center;
+}
+
+.row-2 {
+  display: block;
+  width: 80%;
+  margin: 30px auto 80px;
+  padding-top: 0px;
+  padding-right: 100px;
+  padding-left: 100px;
+}
+
+.row1 {
+  display: block;
+  width: 80%;
+  margin: 30px auto 0px;
+  padding-top: 0px;
+}
+
+.div-block {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.page1-product-heading {
+  display: block;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: Exo, sans-serif;
+  font-size: 30px;
+}
+
+.page1-product-image {
+  position: static;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  width: 150px;
+  height: 150px;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
+  border: 3px solid #000;
+  border-radius: 10px;
+}
+
+.page-1-product-para {
+  position: static;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 0px;
+  margin-left: 20px;
+  padding-top: 0px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
+  font-family: Exo, sans-serif;
+  font-size: 20px;
+  text-align: justify;
+}
+
+.products-page3 {
+  display: inline-block;
+  height: 84.6vh;
+  max-height: 84.6vh;
+  margin-top: 72px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-style: none none solid;
+  border-width: 1px 1px 3px;
+  border-color: #000;
+}
+
+.utility-page-wrap {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  max-height: 100%;
+  max-width: 100%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.utility-page-content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 260px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: center;
+}
+
+.utility-page-form {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+}
+
+.products-page4 {
+  max-height: none;
+  margin-top: 72px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-bottom: 3px solid #000;
+}
+
+.products-page5 {
+  max-height: none;
+  margin-top: 72px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-bottom: 3px solid #000;
+}
+
+.table {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 90%;
+  margin-top: 25px;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+}
+
+.row-value {
+  height: 10%;
+  padding-left: 0px;
+  border: 1px solid #000;
+  font-family: Exo, sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.column1 {
+  width: 25%;
+  height: 100%;
+}
+
+.column2 {
+  width: 75%;
+}
+
+.products-page7 {
+  max-height: auto;
+  margin-top: 72px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-bottom: 3px solid #000;
+}
+
+.products-page2 {
+  max-height: none;
+  margin-top: 72px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-bottom: 3px solid #000;
+}
+
+.products-page6 {
+  max-height: none;
+  margin-top: 72px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-bottom: 3px solid #000;
+}
+
+.products-page8 {
+  margin-top: 72px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-bottom: 3px solid #000;
+}
+
+.welcome-main-div {
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.slider {
+  width: 100%;
+  height: 100%;
+}
+
+.left-icon {
+  width: 60px;
+  height: 60px;
+  padding: 10px 0px 0px;
+  border-radius: 55px;
+  background-color: hsla(0, 0%, 100%, .65);
+  color: #000;
+}
+
+.image-slider {
+  width: 100%;
+  height: 100%;
+  background-image: url('../images/example-bg.png');
+  background-position: 0px 0px;
+}
+
+@media (max-width: 991px) {
+  .welcome-main {
+    padding-top: 0px;
+  }
+  .navlink-main {
+    position: static;
+    text-align: center;
+  }
+  .company-name {
+    padding-right: 18px;
+    padding-left: 18px;
+  }
+  .nav-menu {
+    position: absolute;
+    left: auto;
+    top: 72px;
+    right: 0px;
+    bottom: auto;
+    width: 10%;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 auto;
+    -ms-flex: 0 auto;
+    flex: 0 auto;
+    border-radius: 5px;
+    background-color: #00897b;
+    text-align: center;
+  }
+  .about-us {
+    height: auto;
+  }
+  .about-usdiv {
+    margin-top: 0px;
+    padding-top: 75px;
+    padding-bottom: 75px;
+  }
+  .heading {
+    margin-top: 0px;
+  }
+  .paragraph {
+    margin-bottom: 15px;
+  }
+  .contact-us {
+    height: auto;
+  }
+  .contact-us-div {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  .contact-us-heading {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .contact-h2-heading {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 700;
+  }
+  .contact-para-text {
+    padding-top: 0px;
+  }
+  .contact-us-row {
+    display: block;
+    width: 85%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 50px;
+  }
+  .footer-section {
+    height: 30px;
+  }
+  .copyright {
+    margin-top: 0px;
+    padding-top: 2px;
+  }
+  .copyright.celtic-labs {
+    padding-top: 4px;
+  }
+  .products-page1 {
+    max-height: none;
+  }
+  .products-main-div {
+    width: 85%;
+  }
+  .products-div {
+    padding-bottom: 80px;
+  }
+  .product-image-div {
+    width: 180px;
+    height: 180px;
+  }
+  .products-image {
+    margin-top: 8px;
+  }
+  .product-heading {
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .row-2 {
+    margin-bottom: 0px;
+  }
+  .page1-product-heading {
+    font-size: 25px;
+  }
+  .page-1-product-para {
+    font-size: 18px;
+  }
+  .products-page4 {
+    max-height: none;
+  }
+  .products-page2 {
+    position: static;
+    max-height: none;
+  }
+  .icon-tablet {
+    background-color: transparent;
+    color: #fff;
+    font-size: 40px;
+  }
+  .menu-button-tablet {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: transparent;
+  }
+  .menu-button-tablet:active {
+    background-color: transparent;
+  }
+  .menu-button-tablet.w--open {
+    background-color: transparent;
+    font-size: 40px;
+    text-shadow: 3px 3px 3px #000;
+  }
+  .icon {
+    color: #fff;
+    font-size: 40px;
+  }
+  .menu-button {
+    position: static;
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+  .menu-button.w--open {
+    position: relative;
+    padding-top: 13px;
+    background-color: #00897b;
+    text-shadow: 3px 3px 6px #000;
+  }
+}
+
+@media (max-width: 767px) {
+  .container-main {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+  .nav-menu {
+    top: 72px;
+    right: 0px;
+    width: 10%;
+  }
+  .contact-column {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  .contact-us-row {
+    margin-top: 0px;
+    padding-top: 0px;
+  }
+  .copyright {
+    padding-top: 5px;
+  }
+  .copyright.celtic-labs {
+    padding-top: 5px;
+  }
+  .products-page1 {
+    max-height: none;
+  }
+  .products-col1 {
+    margin-bottom: 15px;
+  }
+  .products-col1-div {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .row1 {
+    width: 90%;
+    margin-top: 15px;
+  }
+  .page1-product-heading {
+    text-align: center;
+  }
+  .products-page3 {
+    height: auto;
+    max-height: none;
+  }
+  .products-page4 {
+    max-height: none;
+  }
+  .welcome-main-div {
+    width: 100%;
+  }
+  .menu-button-tablet {
+    padding-right: 14px;
+    padding-left: 14px;
+  }
+}
+
+@media (max-width: 479px) {
+  .welcome-main {
+    height: 350px;
+  }
+  .container-main {
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .company-name {
+    padding-right: 18px;
+    padding-left: 35px;
+    font-size: 40px;
+  }
+  .company-name.w--current {
+    padding-left: 35px;
+    font-size: 40px;
+  }
+  .nav-menu {
+    top: 72px;
+    right: 0px;
+    height: auto;
+  }
+  .heading {
+    display: block;
+    width: 85%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+  }
+  .paragraph {
+    width: 85%;
+  }
+  .navbar {
+    overflow: visible;
+  }
+  .contact-us-div {
+    padding-bottom: 55px;
+  }
+  .contact-us-heading {
+    display: block;
+    width: 85%;
+    margin-right: auto;
+    margin-left: auto;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-size: 30px;
+    text-align: center;
+  }
+  .contact-para-text {
+    font-size: 15px;
+    text-align: left;
+  }
+  .contact-us-row {
+    width: 85%;
+  }
+  .copyright {
+    margin-left: 25px;
+    font-size: 13px;
+  }
+  .copyright.celtic-labs {
+    margin-right: 25px;
+    margin-left: 85px;
+  }
+  .products-heading {
+    width: 85%;
+  }
+  .products-col1 {
+    margin-bottom: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .row-2 {
+    width: 85%;
+    margin-top: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .row1 {
+    width: 85%;
+    margin-top: 0px;
+  }
+  .div-block {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .page1-product-heading {
+    margin-bottom: 20px;
+    font-size: 25px;
+    text-align: center;
+  }
+  .page-1-product-para {
+    margin-top: 20px;
+    margin-left: 0px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .products-page3 {
+    height: auto;
+    max-height: none;
+  }
+  .products-page4 {
+    max-height: none;
+  }
+  .products-page5 {
+    max-height: none;
+  }
+  .products-page7 {
+    max-height: none;
+  }
+  .products-page6 {
+    max-height: none;
+  }
+  .welcome-main-div {
+    width: 100%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .menu-button-tablet {
+    margin-right: 20px;
+    padding: 12px 15px;
+  }
+  .menu-button-tablet.w--open {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .icon {
+    color: #fff;
+    font-size: 40px;
+  }
+  .menu-button {
+    position: relative;
+    margin-right: 17px;
+    padding-right: 18px;
+    background-color: transparent;
+  }
+  .menu-button.w--open {
+    position: relative;
+    padding-right: 18px;
+    padding-left: 18px;
+    background-color: #00897b;
+    text-shadow: 3px 3px 6px #000;
+  }
+  .left-icon {
+    width: 40px;
+    height: 40px;
+    font-size: 21px;
+  }
+}
